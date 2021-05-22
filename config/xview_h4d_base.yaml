@@ -1,0 +1,139 @@
+DATASET:
+  NAME: "xview_public_base"
+FILTER_BY:
+  IMG:
+    ENABLED: True
+    WIDTH:
+      KEEP_GREATER_THAN: 511
+      KEEP_LESS_THAN: 9999999999
+    HEIGHT:
+      KEEP_GREATER_THAN: 511
+      KEEP_LESS_THAN: 9999999999
+    KEEP_EMPTIES:
+      TRAIN: False
+      VAL: True
+  ANN:
+    ENABLED: True
+    WIDTH:
+      KEEP_GREATER_THAN: 4
+      KEEP_LESS_THAN: 9999999999
+    HEIGHT:
+      KEEP_GREATER_THAN: 4
+      KEEP_LESS_THAN: 9999999999
+  CAT:
+    ENABLED: True
+    INSTANCES:
+      ENABLED: True
+      KEEP_GREATER_THAN: 1
+      KEEP_LESS_THAN: 9999999999
+    NAME:
+      ENABLED: False
+      KEEP: []
+    ID:
+      ENABLED: False
+      KEEP: []
+MAP_BY:
+  ENABLED: True
+  ID_TO_ID:
+    "11": "11"
+    "12": "12"
+    "13": "13"
+    "15": "15"
+    "16": "15"
+    "17": "17"
+    "18": "18"
+    "19": "19"
+    "20": "23"
+    "21": "23"
+    "23": "23"
+    "24": "23"
+    "25": "27"
+    "26": "27"
+    "27": "27"
+    "28": "27"
+    "29": "29"
+    "32": "32"
+    "33": "33"
+    "34": "34"
+    "35": "33"
+    "36": "33"
+    "37": "33"
+    "38": "33"
+    "40": "40"
+    "41": "41"
+    "42": "41"
+    "44": "40"
+    "45": "45"
+    "46": "40"
+    "47": "40"
+    "48": "40"
+    "49": "40"
+    "50": "40"
+    "51": "51"
+    "52": "40"
+    "53": "53"
+    "54": "54"
+    "55": "55"
+    "56": "53"
+    "57": "57"
+    "58": "53"
+    "59": "53"
+    "60": "60"
+    "61": "60"
+    "62": "63"
+    "63": "63"
+    "64": "64"
+    "65": "53"
+    "66": "53"
+    "69": "53"
+    "70": "53"
+    "71": "71"
+    "72": "72"
+    "73": "73"
+    "74": "74"
+    "76": "76"
+    "77": "77"
+    "78": "77"
+    "84": "84"
+    "86": "86"
+    "93": "93"
+    "94": "94"
+    "96": "94"
+    "98": "94"
+    "99": "94"
+    "100": "94"
+  ID_TO_NAME:
+    "11": "Other Aircraft"
+    "12": "Small Plane"
+    "13": "Passenger/Cargo Plane"
+    "15": "Helicopter"
+    "17": "Other Passenger Vehicle"
+    "18": "Car"
+    "19": "Bus"
+    "23": "Other Truck"
+    "27": "Trailer"
+    "29": "Truck w/ Liquid Tank"
+    "32": "Crane Truck"
+    "33": "Other Railway Vehicle"
+    "34": "Passenger Car"
+    "40": "Other Maritime Vessel"
+    "41": "Motor/Sail/Small Boat"
+    "45": "Barge"
+    "51": "Container Ship"
+    "53": "Other Engineering Vehicle"
+    "54": "Tower crane"
+    "55": "Container Crane"
+    "57": "Straddle Carrier"
+    "60": "Dump/Haul Truck"
+    "63": "Loader/Dozer/Tractor/Scraper"
+    "64": "Excavator"
+    "71": "Hut/Tent"
+    "72": "Shed"
+    "73": "Other Building"
+    "74": "Aircraft Hangar"
+    "76": "Damaged Building"
+    "77": "Facility"
+    "84": "Helipad"
+    "86": "Storage Tank"
+    "93": "Pylon"
+    "94": "Tower Structure"

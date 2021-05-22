@@ -1,0 +1,171 @@
+DATASET:
+  NAME: "xview_public_base"
+FILTER_BY:
+  IMG:
+    ENABLED: True
+    WIDTH:
+      KEEP_GREATER_THAN: 511
+      KEEP_LESS_THAN: 9999999999
+    HEIGHT:
+      KEEP_GREATER_THAN: 511
+      KEEP_LESS_THAN: 9999999999
+    KEEP_EMPTIES:
+      TRAIN: False
+      VAL: True
+  ANN:
+    ENABLED: True
+    WIDTH:
+      KEEP_GREATER_THAN: 4
+      KEEP_LESS_THAN: 9999999999
+    HEIGHT:
+      KEEP_GREATER_THAN: 4
+      KEEP_LESS_THAN: 9999999999
+  CAT:
+    ENABLED: True
+    INSTANCES:
+      ENABLED: True
+      KEEP_GREATER_THAN: 1
+      KEEP_LESS_THAN: 9999999999
+    NAME:
+      ENABLED: False
+      KEEP: []
+    ID:
+      ENABLED: False
+      KEEP: []
+MAP_BY:
+  ENABLED: True
+  ID_TO_ID:
+    "11": "11"
+    "12": "12"
+    "13": "13"
+    "15": "15"
+    "16": "15"
+    "17": "17"
+    "18": "18"
+    "19": "19"
+    "20": "20"
+    "21": "21"
+    "22": "23"
+    "23": "23"
+    "24": "24"
+    "25": "25"
+    "26": "26"
+    "27": "27"
+    "28": "28"
+    "29": "29"
+    "32": "32"
+    "33": "33"
+    "34": "34"
+    "35": "35"
+    "36": "36"
+    "37": "37"
+    "38": "38"
+    "40": "40"
+    "41": "41"
+    "42": "42"
+    "44": "44"
+    "45": "45"
+    "46": "40"
+    "47": "47"
+    "48": "40"
+    "49": "49"
+    "50": "50"
+    "51": "51"
+    "52": "52"
+    "53": "53"
+    "54": "54"
+    "55": "55"
+    "56": "56"
+    "57": "57"
+    "58": "53"
+    "59": "59"
+    "60": "60"
+    "61": "61"
+    "62": "62"
+    "63": "63"
+    "64": "64"
+    "65": "65"
+    "66": "66"
+    "67": "62"
+    "69": "53"
+    "70": "53"
+    "71": "71"
+    "72": "72"
+    "73": "73"
+    "74": "74"
+    "76": "76"
+    "77": "77"
+    "78": "77"
+    "79": "79"
+    "83": "83"
+    "84": "84"
+    "86": "86"
+    "89": "89"
+    "91": "91"
+    "93": "93"
+    "94": "94"
+    "96": "94"
+    "98": "94"
+    "99": "94"
+    "100": "94"
+  ID_TO_NAME:
+    "11": "Fixed-wing Aircraft"
+    "12": "Small Aircraft"
+    "13": "Passenger/Cargo Plane"
+    "15": "Helicopter"
+    "17": "Passenger Vehicle"
+    "18": "Small Car"
+    "19": "Bus"
+    "20": "Pickup Truck"
+    "21": "Utility Truck"
+    "23": "Truck"
+    "24": "Cargo Truck"
+    "25": "Truck Tractor w/ Box Trailer"
+    "26": "Truck Tractor"
+    "27": "Trailer"
+    "28": "Truck Tractor w/ Flatbed Trailer"
+    "29": "Truck w/ Liquid Tank"
+    "32": "Crane Truck"
+    "33": "Railway Vehicle"
+    "34": "Passenger Car"
+    "35": "Cargo/Container Car"
+    "36": "Flat Car"
+    "37": "Tank car"
+    "38": "Locomotive"
+    "40": "Maritime Vessel"
+    "41": "Motorboat"
+    "42": "Sailboat"
+    "44": "Tugboat"
+    "45": "Barge"
+    "47": "Fishing Vessel"
+    "49": "Ferry"
+    "50": "Yacht"
+    "51": "Container Ship"
+    "52": "Oil Tanker"
+    "53": "Engineering Vehicle"
+    "54": "Tower crane"
+    "55": "Container Crane"
+    "56": "Reach Stacker"
+    "57": "Straddle Carrier"
+    "59": "Mobile Crane"
+    "60": "Dump Truck"
+    "61": "Haul Truck"
+    "62": "Scraper/Tractor"
+    "63": "Front loader/Bulldozer"
+    "64": "Excavator"
+    "65": "Cement Mixer"
+    "66": "Ground Grader"
+    "71": "Hut/Tent"
+    "72": "Shed"
+    "73": "Building"
+    "74": "Aircraft Hangar"
+    "76": "Damaged Building"
+    "77": "Facility"
+    "79": "Construction Site"
+    "83": "Vehicle Lot"
+    "84": "Helipad"
+    "86": "Storage Tank"
+    "89": "Shipping Container Lot"
+    "91": "Shipping Container"
+    "93": "Pylon"
+    "94": "Tower"
